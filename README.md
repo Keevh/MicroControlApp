@@ -6,9 +6,9 @@
 
 Una aplicación móvil de gestión financiera e inventario, diseñada específicamente para optimizar la agilidad administrativa de las microempresas y comercios locales colombianos.
 
-</div>
 
 ![inicio_app](https://drive.google.com/uc?export=view&id=15Zb6K0QDnuk9DDq3uPl4FUisoN5898xc)
+</div>
 
 ## **Acerca del Proyecto**
 
