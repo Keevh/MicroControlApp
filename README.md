@@ -1,50 +1,78 @@
-# Welcome to your Expo app 👋
+<div align="center">
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+# **MicroControl App**
 
-## Get started
+**Controla tu negocio**
 
-1. Install dependencies
+Una aplicación móvil de gestión financiera e inventario, diseñada específicamente para optimizar la agilidad administrativa de las microempresas y comercios locales colombianos.
 
-   ```bash
-   npm install
-   ```
+</div>
 
-2. Start the app
+![inicio_app](https://drive.google.com/uc?export=view&id=15Zb6K0QDnuk9DDq3uPl4FUisoN5898xc)
 
-   ```bash
+## **Acerca del Proyecto**
+
+MicroControl nace como una solución integral frente al caos administrativo que enfrentan diariamente los micronegocios, tales como cafeterías, tiendas de barrio y pequeños restaurantes. Es una realidad común que los dueños de estos establecimientos mezclen sus finanzas personales con las del local, o pierdan el control de su inventario debido a la falta de tiempo para realizar anotaciones manuales mientras atienden a su clientela.
+
+Por esta razón, nuestra aplicación permite gestionar de manera unificada los ingresos, gastos, compras e inventarios, consolidando toda la información para generar reportes automáticos que facilitan la toma de decisiones. Todo esto se logra a través de una interfaz diseñada con un enfoque radical en la usabilidad, la cual no requiere que el usuario posea conocimientos contables previos.
+
+## **Características Principales**
+
+El Producto Mínimo Viable (PMV) ha sido estructurado mediante cinco módulos fundamentales y una característica de innovación clave:
+
+* **Finanzas al Día (Ingresos, Compras y Gastos):** Permite llevar un registro centralizado de todas las transacciones financieras, abarcando desde el control de las ventas diarias y las compras, hasta el seguimiento de cuentas por cobrar y el pago a proveedores.  
+* **Control de Inventario Inteligente:** El sistema descuenta y actualiza el stock de forma completamente automática tras cada venta registrada. Además, incluye un sistema de alertas visuales preventivas para notificar sobre niveles bajos de mercancía o productos próximos a su fecha de vencimiento.  
+* **Reportes Automáticos:** Facilita el análisis del estado del negocio mediante la generación instantánea de Flujos de Caja y Estados de Resultados, basándose estrictamente en los datos ingresados previamente por el usuario.  
+* **Registro por Voz:** Pensando en la agilidad que requiere la atención al cliente en tiempo real, la plataforma incorpora una herramienta de accesibilidad que permite registrar las transacciones financieras simplemente dictándolas al micrófono del dispositivo.
+
+## **Tecnologías Utilizadas para el PMV**
+
+* **Desarrollo Móvil:** Creada con **React Native** y gestionada a través del framework **Expo**, permitiendo un desarrollo ágil y multiplataforma (iOS y Android) desde una misma base de código.  
+* **Persistencia de Datos:** Toda la información se almacena directamente en el dispositivo del usuario mediante **persistencia en caché y almacenamiento local** (AsyncStorage / SQLite), asegurando la privacidad de los datos financieros y la inmediatez en los tiempos de carga.  
+* **Reconocimiento de Voz:** Integración de APIs nativas de dictado compatibles con los ecosistemas de Android y Apple.
+
+## **Despliegue, instalacion y ejecución local**
+
+Para Instalar la aplicación compilada directamente, puede dirigirse al asiguiente link https://bit.ly/47nuGUn
+
+![qr](https://drive.google.com/uc?export=view&id=1LeChfu8tpVrvAJjjLKH10_3IdVTzT64n)
+
+Para desplegar y ejecutar el PMV en un entorno de desarrollo local, asegúrate de tener Node.js instalado y sigue estas instrucciones:
+
+1. **Clona este repositorio en tu máquina:**  
+   git clone [https://github.com/Keevh/MicroControlApp.git](https://github.com/Keevh/MicroControlApp.git)
+
+2. **Navega al directorio raíz del proyecto:**  
+   cd MicroControlApp
+
+3. **Instala las dependencias necesarias:**  
+   npm install 
+
+4. **Inicia el servidor de desarrollo de Expo:**  
    npx expo start
-   ```
 
-In the output, you'll find options to open the app in a
+5. **Prueba la aplicación:** Una vez ejecutado el comando anterior, se generará un código QR en la terminal. Descarga la aplicación **Expo Go** en tu dispositivo móvil (disponible en Play Store y App Store) y escanea el código QR para compilar y visualizar la aplicación en tiempo real.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## **Modelo de Negocio**
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+El proyecto está estructurado para ser escalable comercialmente mediante un modelo *Freemium*, el cual se divide en tres niveles de acceso:
 
-## Get a fresh project
+1. **Versión Gratuita:** Dirigida a facilitar la adaptación tecnológica del usuario, ofreciendo el registro básico de ingresos, compras y gastos operativos.  
+2. **Suscripción Premium:** Constituye el núcleo de monetización de la aplicación, desbloqueando los reportes financieros avanzados y el control de inventario sin límites de capacidad.  
+3. **Servicios Adicionales:** Planeada como una integración a futuro, esta característica permitirá a los negocios formalizados conectar el sistema directamente con el ecosistema de Facturación Electrónica de la DIAN.
 
-When you're ready, run:
+## **Equipo de Desarrollo**
 
-```bash
-npm run reset-project
-```
+Este proyecto fue desarrollado como parte integral de la asignatura de **Ingeniería del Software II** en la **Universidad Industrial de Santander (UIS)**, bajo la dirección del docente Jeison Mauricio Delgado González.
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+**Integrantes:**
 
-## Learn more
+* **Yeison Steven Ovalle Manjarres** (Código: 2225115\)  
+* **Kevin Alexander Salinas Paez** (Código: 2225107\)  
+* **Kevin Andres Gallardo Robles** (Código: 2191918\)
 
-To learn more about developing your project with Expo, look at the following resources:
+<div align="center">
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+<i>Desarrollado para impulsar la digitalización y el crecimiento de las microempresas de nuestra región.</i>
 
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+</div>
